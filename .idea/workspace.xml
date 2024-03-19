@@ -2,13 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f85dd326-3990-4c67-b41d-3680227182bc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aston-aqa.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Runnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/animals/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/animals/AnimalsApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/animals/Bowl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/animals/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/animals/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shapes/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shapes/Colors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shapes/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shapes/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shapes/ShapesDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shapes/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,12 +26,24 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -38,6 +58,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.0",
@@ -45,7 +66,20 @@
     "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.AnimalsApp">
+    <configuration name="AnimalsApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="animals.AnimalsApp" />
+      <module name="aston-aqa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="animals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Lesson2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson2" />
       <module name="aston-aqa" />
@@ -53,8 +87,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="aston-aqa" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShapesDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="shapes.ShapesDemo" />
+      <module name="aston-aqa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="shapes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AnimalsApp" />
+        <item itemvalue="Application.ShapesDemo" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Lesson2" />
       </list>
     </recent_temporary>
@@ -69,6 +126,7 @@
       <updated>1710365955945</updated>
       <workItem from="1710365957304" duration="4037000" />
       <workItem from="1710404756245" duration="2338000" />
+      <workItem from="1710840552030" duration="14669000" />
     </task>
     <servers />
   </component>
