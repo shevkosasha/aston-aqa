@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        String[][] array2D = {{"9", "6", "3","2"}, {"4", "7", "1","5", "5"}, {"8", "5", "2","65"}, {"1", "null", "51","25"}};
+        String[][] array2D = {{"9", "6", "3","2"}, {"4", "7", "1","5"}, {"8", "5", "2","65"}, {"1", "2", "51","25"}};
         try {
             try {
                 int result = sumArray2D(array2D);
@@ -25,7 +25,7 @@ public class Main {
             }
             for (int j = 0; j < arr[i].length; j++) {
                 try {
-                    sum += sum + Integer.parseInt(arr[i][j]);
+                    sum += Integer.parseInt(arr[i][j]);
                 }
                 catch (NumberFormatException e) {
                     throw new MyArrayDataException(i, j);
