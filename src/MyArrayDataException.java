@@ -1,17 +1,11 @@
 public class MyArrayDataException extends Exception{
 
-//    MyArrayDataException extends Exception{
-//
-        public int i;
-        public int j;
-//
-       public MyArrayDataException(int i, int j) {
-            this.i = i;
-            this.j = j;
+    public int i;
+    public int j;
 
-        }
-//        public MyArrayDataException(int i, int j) {
-//            super(errorMessage);
-//        }
-//    }
+   public MyArrayDataException(int i, int j) {
+        this.i = i;
+        this.j = j;
+
+    }
 }

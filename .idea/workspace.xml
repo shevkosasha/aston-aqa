@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f85dd326-3990-4c67-b41d-3680227182bc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ExceptionsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyArrayDataException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyArraySizeException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExceptionsDemo.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyArrayDataException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyArrayDataException.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +47,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ExceptionsDemo">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="AnimalsApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="animals.AnimalsApp" />
       <module name="aston-aqa" />
@@ -98,9 +97,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.ExceptionsDemo" />
         <item itemvalue="Application.ShapesDemo" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Lesson2" />
         <item itemvalue="Application.AnimalsApp" />
       </list>
@@ -117,9 +116,21 @@
       <workItem from="1710365957304" duration="4037000" />
       <workItem from="1710404756245" duration="2338000" />
     </task>
+    <task id="LOCAL-00001" summary="lesson_5">
+      <created>1710972172294</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710972172294</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="lesson_5" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson_5" />
   </component>
 </project>
