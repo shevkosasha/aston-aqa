@@ -38,8 +38,7 @@ class FactorialTest {
         try {
             Assert.assertTrue("factorial of any positive number should be more than one",Factorial.getFactorialOf(10) > 1);
         } catch (IOException e) {
-            Assert.assertNotEquals(null, e);
-            Assert.assertEquals("Factorial of a negative number do not exist", e.getMessage());
+            Assert.assertEquals(null, e);
         }
     }
 }
