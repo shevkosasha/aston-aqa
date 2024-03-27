@@ -1,9 +1,10 @@
+import java.io.IOException;
+
 public class Factorial {
 
-    public static int factorial(int n){
-        if (n == 0)
-            return 1;
-        else
-            return(n * factorial(n-1));
+    public static int getFactorialOf(int n) throws IOException {
+        if ( n < 0) throw new IOException("Factorial of a negative number do not exist");
+        if (n < 2) return 1;
+        return(n * getFactorialOf(n-1));
     }
 }
